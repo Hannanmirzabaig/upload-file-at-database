@@ -7,7 +7,7 @@ public class FileStorageController {
 	
 	public static void main(String[] args) {
 		
-		FileStorage fileStorage=new FileStorage("G:\\image\\resume\\Hannan Resume.pdf");
+		FileStorage fileStorage=new FileStorage("G:\\image\\resume\\Hannan Resume.pdf"); //we can add file like pdf,txt,jpg  file
 		
 		FileStorageDao dao=new FileStorageDao();
 		
